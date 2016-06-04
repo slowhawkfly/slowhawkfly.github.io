@@ -1,8 +1,31 @@
-
 <html>
-<head></head>
+
+<head>GitHup SHF Page</head>
 
 <body>
-Hello world!
+    Hello world!
+    <input type="text" id="txt1" />
+    <input type="text" id="txt2" />
+    <input type="text" id="txt3" />
+    <input type="text" id="txt4" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#txt1").keyup(function() {
+            $("#txt2").val($("#txt1").val());
+        })
+    })
+    </script>
+    <button>按一下</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("button").click(function() {
+            $("#txt4").val($("#txt3").val());
+        })
+    })
+    </script>
 </body>
+
 </html>
