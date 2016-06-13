@@ -7,42 +7,66 @@
     <H1>Hello world!</H1>
     <p>
         <input type="text" id="txt1" />
+        <input type="text" id="txt2" /> 打字
         <br/>
-        <input type="text" id="txt2" />
-    </p>
-    <p>
         <input type="text" id="txt3" />
-        <br/>
         <input type="text" id="txt4" />
-    </p>
-    <p>
- 		<img src="fetch.jpg">
- 		<img src="99.jpg">
- 		<img src="20090921_005_01.jpg">
- 		<img src="2016042601_01_big.jpg">
- 		<img src="20101006150343-2.jpg">
- 		<img src="c315f2b7-4197-4b40-b6ac-cdbe0dee6ae2.jpg">
- 		<img src="urban-web.kcg.gov.tw_Data_BU12_Board_20100804154715-1.jpg">
- 		<img src="打造亞洲新灣區：土地使用和軌道建設的整合型發展計畫.jpg">
-    </p>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js">
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("#txt1").keyup(function() {
-            $("#txt2").val($("#txt1").val());
+        <button>按一下</button>
+        <p>
+            [地點] 建案(預售)，(幾房)坪數*單價+車位+裝潢
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/03/blog-post_18.html">[市議會] 城逸，38*27+170+100</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/04/blog-post_28.html">[市議會中央公園] 民生香榭(預售)，(2房)30*30+?+?</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/05/blog-post_19.html">[民權三多] 民權永富(預售)，(2房)32*25+160+?</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/01/blog-post_12.html">[林森民生] 民生Life，(2房)25*30+155+75</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2015/11/d.html">[信義國小] 慶旺DC，(2房)32*27+155+90</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/01/blog-post_20.html">[復興二聖] 棋琴17重奏，34*30-100+?+100</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2016/01/blog-post_12.html">[和平廣西] 香榭城堡，37*24+165+110</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2015/12/blog-post_29.html">[和平二聖] 文化一邸，42*25+180+175</a>
+        </p>
+        <p><a href="http://enjoy1113.blogspot.tw/2015/12/blog-post_18.html">[凱旋瑞隆] 凡瑞登，40*25-70+159+100</a>
+        </p>
+        <p>
+            中信公教貸款，1.63%，5年，30年
+            <br/> 貸1000，寬限13,583，還款40,607
+            <br/> 貸900，寬限12,225，還款36,547
+            <br/> 貸800，寬限10,867，還款32,486
+            <br/>
+        </p>
+        <p>
+            <img src="fetch.jpg">
+            <img src="99.jpg">
+            <img src="20090921_005_01.jpg">
+            <img src="2016042601_01_big.jpg">
+            <img src="20101006150343-2.jpg">
+            <img src="c315f2b7-4197-4b40-b6ac-cdbe0dee6ae2.jpg">
+            <img src="urban-web.kcg.gov.tw_Data_BU12_Board_20100804154715-1.jpg">
+            <img src="打造亞洲新灣區：土地使用和軌道建設的整合型發展計畫.jpg">
+        </p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("#txt1").keyup(function() {
+                $("#txt2").val($("#txt1").val());
+            })
         })
-    })
-    </script>
-    <button>按一下</button>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("button").click(function() {
-            $("#txt4").val($("#txt3").val());
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#txt4").val($("#txt3").val());
+            })
         })
-    })
-    </script>
+        </script>
 </body>
 
 </html>
